@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MADWorkshop</string>
+    <string name="title">Cafe Guldhornene</string>
+    <string name="description">The best little bar in all of Aalborg!</string>
+    <string name="counterButton">Press the button to count</string>
+    <string name="counterButtonClicked">Button was clicked: </string>
+    <string name="goToMenu">See menu</string>
+    <string name="goToAboutUs">About us</string>
+    <string name="menuTitle">Menu</string>
+    <string name="profileTItle">Profile</string>
+    <string name="saveButton">Save profile</string>
+    <string name="profileButton">My profile</string>
+    <string name="takeImageButton">Take photo</string>
+    <string name="profileSavedToast">The profile was saved</string>
+    <string name="bestFriend">My best friends: </string>
+    <string name="useDatabase">Use database</string>
+    <string name="tilføjDrink">New drink</string>
+    <string name="tilføjDrinkKnap">Add drink</string>
+
+</resources>

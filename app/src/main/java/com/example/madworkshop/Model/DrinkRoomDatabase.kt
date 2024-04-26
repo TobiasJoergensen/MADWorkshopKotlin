@@ -29,8 +29,14 @@ abstract class DrinkRoomDatabase : RoomDatabase() {
                 synchronized(DrinkRoomDatabase::class.java) {
                     if (INSTANCE == null) {
                         //Here we assign our instance of our dataBase connection.
-                        INSTANCE = Room.databaseBuilder(context.applicationContext,
+                        try {
+                            INSTANCE = Room.databaseBuilder(context.applicationContext,
                                 DrinkRoomDatabase::class.java, DRINK_DB_NAME).addCallback(sRoomDatabaseCallback).build()
+                        }
+                        catch(e: Exception) {
+                            println(e);
+                            return null;
+                        }
                     }
                     return INSTANCE
                 }

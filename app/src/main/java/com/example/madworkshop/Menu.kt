@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView.ItemDecoration
 import com.example.madworkshop.Model.Drink
 import com.example.madworkshop.ViewModel.DrinkViewModel
 
+
 class Menu : AppCompatActivity() {
     //This is global variables of this class. You can access these anywhere in this class.
     //You can add accessors like private or public to enable the variables to be used outside of this class.

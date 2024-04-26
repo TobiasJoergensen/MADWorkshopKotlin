@@ -25,7 +25,7 @@ class DrinkRepository(application: Application?) {
             return mAllDrinks
         }
 
-    fun insertDrink(drink: Drink?) {
+    fun insertDrink(drink: Drink) {
         //Insert a new drink into our database
         DrinkRoomDatabase.databaseWriteExecutor.execute { mDrinkDao?.insertDrink(drink) }
     }

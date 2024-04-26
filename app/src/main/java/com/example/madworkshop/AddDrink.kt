@@ -40,9 +40,9 @@ class AddDrink : AppCompatActivity() {
                 //Here we put all of our text into information that we can use, when we return to where the intent was called.
                 val name = etName!!.text.toString()
                 replyIntent.putExtra("name", name)
-                val age = Integer.getInteger(etName!!.text.toString())
+                val age = etAge!!.text.toString().toInt();
                 replyIntent.putExtra("age", age)
-                val type = etName!!.text.toString()
+                val type = etType!!.text.toString()
                 replyIntent.putExtra("type", type)
 
                 //We set the result as OK
